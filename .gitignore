@@ -1,6 +1,7 @@
-
 *.z
 *.pdf
-*.cpython-36.pyc
+*.cpython-37.pyc
 *-checkpoint.ipynb
 settings.json
+*.h5
+*.pkl

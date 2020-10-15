@@ -46,6 +46,7 @@ def get_features(options, yamlConfig):
     features_labels_df = pd.DataFrame(treeArray,columns=list(set(features+labels)))
     features_labels_df = features_labels_df.drop_duplicates()
 
+    features_labels_df = features_labels_df.head(n = 750000)
     features_df = features_labels_df[features]
     labels_df = features_labels_df[labels]
     
